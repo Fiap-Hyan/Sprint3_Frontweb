@@ -3,8 +3,8 @@ import { IconeDocumento } from '../ui/Icones'
 
 /**
  * Visor da câmera. Sem permissão de webcam ele mostra a cena simulada (mesma
- * aparência escura das telas do protótipo); com a webcam ligada em Ajustes,
- * exibe a imagem real do dispositivo.
+ * aparência escura das telas do protótipo); com a permissão concedida (pedida
+ * ao entrar no protótipo), exibe a imagem real do dispositivo.
  */
 const Visor = ({
   ajustes,

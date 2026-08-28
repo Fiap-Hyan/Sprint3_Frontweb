@@ -73,7 +73,7 @@ export const AJUSTES_INICIAIS = {
   resumoAutomatico: false,
   salvarLocalizacao: false,
   albunsPrivados: false,
-  usarWebcam: false,
+  usarWebcam: true,
 }
 
 export default { ALBUNS_INICIAIS, NOTAS_INICIAIS, AJUSTES_INICIAIS }

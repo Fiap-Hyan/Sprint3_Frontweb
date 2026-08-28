@@ -76,7 +76,7 @@ const TelaAjustes = ({ ajustes, definirAjuste, biblioteca, aoVoltar, aoAvisar })
         <Interruptor
           id="ajuste-webcam"
           rotulo="Usar a câmera do dispositivo"
-          descricao="Substitui o visor simulado pela imagem real (pede permissão ao navegador)"
+          descricao="Substitui o visor simulado pela imagem real (a permissão é pedida ao abrir o protótipo)"
           ligado={ajustes.usarWebcam}
           aoAlternar={(valor) => {
             definirAjuste('usarWebcam', valor)

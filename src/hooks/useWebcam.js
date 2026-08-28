@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 /**
- * Liga a câmera real do dispositivo no visor (opcional, controlado em Ajustes).
- * Quando o navegador nega a permissão ou não tem câmera, o visor volta para a
- * simulação e o aplicativo continua funcionando normalmente.
+ * Liga a câmera real do dispositivo no visor. A permissão é pedida ao entrar no
+ * protótipo (src/paginas/PaginaAplicativo.jsx) e pode ser ligada/desligada
+ * depois em Ajustes. Quando o navegador nega a permissão ou não tem câmera, o
+ * visor volta para a simulação e o aplicativo continua funcionando normalmente.
  */
 const useWebcam = (ativo) => {
   const elementoVideo = useRef(null)

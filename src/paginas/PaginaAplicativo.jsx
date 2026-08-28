@@ -177,7 +177,9 @@ const PaginaAplicativo = () => {
         </dl>
         <p className="palco__nota">
           Use o aparelho ao lado como no celular: o botão branco captura, o ícone de galeria abre as
-          fotos guardadas (segure para revelar os álbuns) e a seta da barra inferior volta.
+          fotos guardadas (segure para revelar os álbuns) e a seta da barra inferior volta. O visor
+          pede a câmera do seu dispositivo ao abrir esta página; se você negar, ele continua na cena
+          simulada.
         </p>
       </aside>
 
