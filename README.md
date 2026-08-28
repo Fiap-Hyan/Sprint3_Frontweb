@@ -207,19 +207,8 @@ interface mostra o recado no lugar do resultado — a aplicação continua
 funcionando mesmo sem rede. Detalhes em `src/services/INTEGRACOES.md`.
 
 
-## Link do repositório Git e do Deploy na Vercel
-
-- **Repositório Git:** _adicionar o link após o push para o GitHub._ O repositório
-  local já está criado; para publicar:
-
-  ```bash
-  git remote add origin https://github.com/<usuario>/<repositorio>.git
-  git push -u origin main
-  ```
-
-- **Deploy na Vercel:** _adicionar o link após publicar (`vercel --prod` ou
-  integração com o GitHub). O projeto é um Vite + React padrão: a Vercel detecta
-  sozinha o comando `npm run build` e a pasta de saída `dist`._
+- **Deploy na Vercel:** 
+https://sprint3frontweb-zeta.vercel.app/#/app
 
 ---
 
