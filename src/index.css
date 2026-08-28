@@ -1,0 +1,12 @@
+/* Estilos do protótipo do aplicativo (rota #/app) */
+@import './css/base.css';
+@import './css/dispositivo.css';
+@import './css/camera.css';
+@import './css/albuns.css';
+@import './css/notas.css';
+@import './css/paineis.css';
+@import './css/ui.css';
+
+/* Estilos da landing page (rota inicial) */
+@import './css/site/base-site.css';
+@import './css/site/estilo.css';
